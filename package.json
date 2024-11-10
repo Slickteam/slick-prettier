@@ -1,23 +1,34 @@
 {
   "name": "@slickteam/prettier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prettier configuration for slickteam's project",
-  "license": "MIT",
-  "main": "index.js",
   "keywords": [
     "Slickteam",
     "Prettier"
   ],
-  "files": [
-    "./index.js",
-    "./.prettierignore",
-    "./.prettierrc"
-  ],
+  "license": "MIT",
   "author": {
     "name": "Ronan MOREL",
     "email": "ronan.morel@slickteam.fr",
     "url": "https://slickteam.fr"
   },
+  "maintainers": [
+    {
+      "email": "ronan.morel@slickteam.fr",
+      "name": "Ronan MOREL",
+      "url": "https://slickteam.fr"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Slickteam/slick-nestjs-cellar.git"
+  },
+  "main": "index.js",
+  "files": [
+    "./index.js",
+    "./.prettierignore",
+    "./.prettierrc"
+  ],
   "scripts": {
     "prettier": "prettier --cache --check .",
     "prettier:fix": "prettier --cache --write ."
@@ -25,8 +36,8 @@
   "dependencies": {
     "prettier": "^3.3.3"
   },
+  "packageManager": "pnpm@9.12.3",
   "volta": {
-    "node": "22.9.0",
-    "npm": "10.8.3"
+    "node": "22.11.0"
   }
 }
