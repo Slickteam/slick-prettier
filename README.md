@@ -1,5 +1,7 @@
 # Slick Prettier
 
+Available on npmjs.org : [@slickteam/prettier](https://www.npmjs.com/package/@slickteam/prettier)
+
 ## Usage
 
 - Install dependency
