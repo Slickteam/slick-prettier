@@ -5,4 +5,9 @@ module.exports = {
   tabWidth: 2,
   endOfLine: 'auto',
   printWidth: 140,
+  plugins: ['@trivago/prettier-plugin-sort-imports'],
+  importOrderParserPlugins: ['typescript', 'decorators-legacy'],
+  importOrder: ['^@/(.*)$', '^[../]', '^[./]'],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
 };
