@@ -33,7 +33,7 @@
     "prettier": "prettier --cache --check .",
     "prettier:fix": "prettier --cache --write ."
   },
-  "bundleDependencies": [
+  "bundledDependencies": [
     "@trivago/prettier-plugin-sort-imports"
   ],
   "dependencies": {
