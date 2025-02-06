@@ -7,7 +7,7 @@ Available on npmjs.org : [@slickteam/prettier](https://www.npmjs.com/package/@sl
 - Install dependency
 
 ```bash
-npm i -D @slickteam/prettier
+npm i -D @slickteam/prettier @trivago/prettier-plugin-sort-imports
 ```
 
 - In `package.json`, add configuration of prettier :
