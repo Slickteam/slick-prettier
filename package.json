@@ -1,6 +1,6 @@
 {
   "name": "@slickteam/prettier",
-  "version": "1.2.0-rc.3",
+  "version": "1.2.0-rc.4",
   "description": "Prettier configuration for slickteam's project",
   "type": "module",
   "keywords": [
@@ -36,6 +36,15 @@
   "scripts": {
     "prettier": "prettier --cache --check .",
     "prettier:fix": "prettier --cache --write ."
+  },
+  "pnpm": {
+    "packageExtensions": {
+      "@slickteam/prettier": {
+        "dependencies": {
+          "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+        }
+      }
+    }
   },
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "^5.2.2"

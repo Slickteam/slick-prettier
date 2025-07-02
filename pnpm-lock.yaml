@@ -4,7 +4,7 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-packageExtensionsChecksum: sha256-+mIt3V+IIzkoDkOsuxVlXx6bHwWRhu1ggox+P1Lhe+0=
+packageExtensionsChecksum: sha256-BNK7grSiTGCWZTTWPEHCqFhT0+0XGgq/PjGqvmJbiDE=
 
 importers:
 
@@ -218,11 +218,4 @@ snapshots:
 
   picocolors@1.1.1: {}
 
-  prettier@3.6.2:
-    dependencies:
-      '@trivago/prettier-plugin-sort-imports': 5.2.2(prettier@3.6.2)
-    transitivePeerDependencies:
-      - '@vue/compiler-sfc'
-      - prettier-plugin-svelte
-      - supports-color
-      - svelte
+  prettier@3.6.2: {}
