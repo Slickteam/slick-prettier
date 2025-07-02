@@ -1,6 +1,6 @@
 {
   "name": "@slickteam/prettier",
-  "version": "1.2.0-rc.1",
+  "version": "1.2.0-rc.2",
   "description": "Prettier configuration for slickteam's project",
   "type": "module",
   "keywords": [
@@ -41,8 +41,16 @@
     "@trivago/prettier-plugin-sort-imports": "^5.2.2"
   },
   "peerDependencies": {
-    "prettier": "^3.6.2",
-    "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+    "prettier": "^3.6.2"
+  },
+  "pnpm": {
+    "packageExtensions": {
+      "prettier": {
+        "dependencies": {
+          "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+        }
+      }
+    }
   },
   "packageManager": "pnpm@10.12.4",
   "volta": {
