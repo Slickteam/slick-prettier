@@ -1,6 +1,6 @@
 {
   "name": "@slickteam/prettier",
-  "version": "1.2.0-RC-0",
+  "version": "1.2.0-rc.0",
   "description": "Prettier configuration for slickteam's project",
   "type": "module",
   "keywords": [
