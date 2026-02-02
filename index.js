@@ -1,3 +1,5 @@
+import sortImportsPlugin from '@trivago/prettier-plugin-sort-imports';
+
 /** @type {import("prettier").Config} */
 export default {
   singleQuote: true,
@@ -6,7 +8,7 @@ export default {
   tabWidth: 2,
   endOfLine: 'auto',
   printWidth: 140,
-  plugins: ['@trivago/prettier-plugin-sort-imports'],
+  plugins: [sortImportsPlugin],
   importOrderParserPlugins: ['typescript', 'decorators-legacy'],
   importOrder: ['^@/(.*)$', '^[../]', '^[./]'],
   importOrderSeparation: true,
