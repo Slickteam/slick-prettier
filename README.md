@@ -34,24 +34,26 @@ Puis ajoutez les scripts de formatage :
 ```json
 {
   "scripts": {
-    "prettier": "prettier --cache --check .",
-    "prettier:fix": "prettier --cache --write ."
+    "prettier": "slick-prettier --cache --check .",
+    "prettier:fix": "slick-prettier --cache --write ."
   }
 }
 ```
+
+> **Note** : La commande `slick-prettier` est un wrapper autour de `prettier` qui utilise automatiquement le fichier `.prettierignore` du package (ignorant `dist`, `build`, `node_modules` et les fichiers lock).
 
 ## Options de formatage
 
 Cette configuration applique les règles suivantes :
 
-| Option | Valeur | Description |
-|--------|--------|-------------|
-| `singleQuote` | `true` | Utilise les guillemets simples |
-| `trailingComma` | `all` | Virgule finale partout |
-| `semi` | `true` | Point-virgule en fin de ligne |
-| `tabWidth` | `2` | Indentation de 2 espaces |
-| `printWidth` | `140` | Largeur maximale de ligne |
-| `endOfLine` | `auto` | Fin de ligne automatique |
+| Option          | Valeur | Description                    |
+| --------------- | ------ | ------------------------------ |
+| `singleQuote`   | `true` | Utilise les guillemets simples |
+| `trailingComma` | `all`  | Virgule finale partout         |
+| `semi`          | `true` | Point-virgule en fin de ligne  |
+| `tabWidth`      | `2`    | Indentation de 2 espaces       |
+| `printWidth`    | `140`  | Largeur maximale de ligne      |
+| `endOfLine`     | `auto` | Fin de ligne automatique       |
 
 ### Tri des imports
 

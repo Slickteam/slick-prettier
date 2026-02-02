@@ -28,14 +28,18 @@
     "access": "public"
   },
   "main": "index.js",
+  "bin": {
+    "slick-prettier": "./bin/slick-prettier.js"
+  },
   "files": [
     "./index.js",
+    "./bin",
     "./.prettierignore",
     "./.prettierrc"
   ],
   "scripts": {
-    "prettier": "prettier --cache --check .",
-    "prettier:fix": "prettier --cache --write ."
+    "prettier": "node bin/slick-prettier.js --cache --check .",
+    "prettier:fix": "node bin/slick-prettier.js --cache --write ."
   },
   "dependencies": {
     "prettier": "^3.8.1",
